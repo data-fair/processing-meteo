@@ -34,7 +34,7 @@
           }
         },
         {
-          "title": "Mettre à jour un jeu de données (fichier)",
+          "title": "Mettre à jour un jeu de données",
           "required": [
             "dataset"
           ],
@@ -60,12 +60,6 @@
                   "title": "Titre"
                 }
               }
-            },
-            "forceUpdate": {
-              "title": "Forcer la mise à jour",
-              "description": "La mise à jour forcée permet de remettre à jour le schéma en cas de modification sur le jeu de donnée",
-              "type": "boolean",
-              "default": false
             }
           }
         }
